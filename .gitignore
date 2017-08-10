@@ -1,0 +1,9 @@
+*.log
+
+.config/dconf
+.config/gtk-*
+.config/htop
+.config/pulse
+.config/ranger
+
+*.swp
