@@ -1,6 +1,16 @@
+"
+" VIM Config
+"
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set number
+set relativenumber
 set t_Co=256
-let q:Powerline_symbols="fancy"
+
+" Vim airline
+set laststatus=2
+let g:airline_theme='minimalist'
+let g:airline_powerline_fonts=1

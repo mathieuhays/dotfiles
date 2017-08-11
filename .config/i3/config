@@ -30,7 +30,7 @@ font pango:System San Francisco Display 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xterm
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -182,6 +182,8 @@ gaps inner 10
 gaps outer 10
 
 bindsym $mod+Shift+x exec i3lock --color "$bg-color"
+
+exec_always compton
 
 exec_always feh --bg-fill ~/Pictures/wallpaper.jpg
 
