@@ -1,0 +1,23 @@
+!
+!   Rofi Config
+!
+
+rofi.width: 100
+
+rofi.lines: 5
+
+rofi.padding: 500
+
+! Row height
+rofi.eh: 2
+
+rofi.line-margin: 4
+
+rofi.separator-style: none
+
+! Colors
+rofi.color-enabled: true
+rofi.color-window: argb:b6000000, argb:b6000000, argb(56ffffff)
+rofi.color-normal: argb:00000000, #ffffff, argb:00000000, argb:b6268bd2, #ffffff
+rofi.color-active: argb:b6000000, #268bd2, argb:b6000000, #268bd2, #fdf7e3
+rofi.color-urgent: argb:b6000000, #dc322f, argb:b6000000, #dc322f, #fdf6e3
