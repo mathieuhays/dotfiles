@@ -1,9 +1,11 @@
 *.log
+*.swp
 
 .config/dconf
 .config/gtk-*
 .config/htop
 .config/pulse
 .config/ranger
-
-*.swp
+.config/qutebrowser/*
+!.config/qutebrowser/qutebrowser.conf
+!.config/qutebrowser/keys.conf
